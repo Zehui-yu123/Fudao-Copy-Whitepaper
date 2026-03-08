@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>护道副本</title>
+  <script>
+    // Redirect to index.html with the current path as a hash
+    var path = window.location.pathname;
+    var search = window.location.search;
+    var hash = window.location.hash;
+    window.location.replace('./index.html#' + path + search + hash);
+  </script>
+</head>
+<body>
+  <p>正在跳转...</p>
+</body>
+</html>
